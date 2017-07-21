@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-	<title>Avocados</title>
+	<title>Atocene</title>
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge />">
 	<meta http-equiv="content-type" content="text/html" charset="utf-8"/>
@@ -21,8 +21,27 @@
 		<canvas id="gradient-background">
 
 		</canvas>
-		<div class="container">
-			<h1>Welcome</h1>
+		<div id="login-screen" class="container animated fadeIn">
+			<h1 class="animated fadeInDown">Welcome</h1>
+			<h4>Please Login</h4>
+			<form type="post">
+				<div class="form-group">
+					<label for="email">Email</label>
+					<br />
+					<br />
+					<input type="email" name="email" />
+				</div>
+				<div class="form-group">
+					<label for="email">Password</label>
+					<br />
+					<br />
+					<input type="password" name="password" />
+				</div>
+				<button>Log In</button>
+			</form>
+		</div>
+		<div id="info-button">
+			<button><span class="glyphicon glyphicon-info-sign"></span></button>
 		</div>
 	<!-- wrapper ends -->
 	<script src="../assets/js/jquery.min.js"></script>
