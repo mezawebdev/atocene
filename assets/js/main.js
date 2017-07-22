@@ -14,8 +14,4 @@ $(document).ready(function() {
             }
         }
     });
-
-    setTimeout(function() {
-        $("#login-screen").css("display", "block");
-    }, 500);
 });

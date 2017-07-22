@@ -29,25 +29,29 @@
 					<label for="email">Email</label>
 					<br />
 					<br />
-					<input type="email" name="email" />
+					<input required type="email" name="email" />
 				</div>
 				<div class="form-group">
 					<label for="email">Password</label>
 					<br />
 					<br />
-					<input type="password" name="password" />
+					<input required type="password" name="password" />
 				</div>
 				<button>Log In</button>
 			</form>
 		</div>
-		<div id="info-button">
+		<div id="footer-button">
 			<button><span class="glyphicon glyphicon-info-sign"></span></button>
+			<div class="loading-spinner">
+
+			</div>
 		</div>
 	<!-- wrapper ends -->
 	<script src="../assets/js/jquery.min.js"></script>
 	<script src="../assets/js/jquery-ui.min.js"></script>
 	<script src="../assets/js/bootstrap.min.js"></script>
 	<script src="../assets/js/granim.min.js"></script>
+	<script src="../assets/js/login.js"></script>
 	<script src="../assets/js/main.js"></script>
 </body>
 </html>
